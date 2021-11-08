@@ -1,0 +1,225 @@
+@media only screen and (max-width: 1440px) {
+    #logo {
+        width: 230px;
+    }
+    .headerright {
+        margin-left: -240px;
+    }
+    .tab {
+        width: 40%;
+    }
+    .tabcontent {
+        width: 60%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    #header {
+        padding: 10px 0px 60px 0px;
+    }
+    .headerright {
+        margin-left: -200px;
+        margin-top: 10px
+    }
+    #logo {
+        width: 200px;
+    }
+    .pageheading {
+        padding: 20px 0px;
+    }
+    .pageheading::after {
+        bottom: 68px;
+    }
+}
+
+@media only screen and (max-width: 1169px) {
+    .mainmenu li {
+        padding: 0px 10px 0px 10px;
+    }
+    .headercallus {
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .hedmakeappoiment {
+        margin-left: 10px;
+    }
+    .socialmeadia li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .socialmeadia li a {
+        width: 33px;
+        height: 33px;
+        line-height: 33px;
+    }
+    #header {
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    div#logo {
+        max-width: 200px;
+        margin: 0 auto;
+        /* width: 100%; */
+        float: none;
+    }
+    ul.mainmenu {
+        display: none;
+    }
+    .headerright {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .headerrightbottom {
+        margin-bottom: 35px;
+        margin-top: 0;
+    }
+    .footercol {
+        text-align: center;
+        width: 25%;
+    }
+    .footercol1 {
+        width: 100%;
+    }
+    .footerbookbtn {
+        max-width: 180px;
+        margin: 0 auto;
+    }
+    .footersocial {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+    .nav-toggle {
+        display: block;
+        top: -12px;
+    }
+    .mainmenu {
+        position: absolute;
+        top: 122px;
+        width: 100%;
+        height: 0;
+        padding: 0;
+        overflow: hidden;
+        right: 0;
+    }
+    ul.mainmenu.active {
+        height: auto;
+        display: block;
+        z-index: 999999999999;
+        top: 40px;
+        width: 260px;
+        left: -150px;
+        right: 0px;
+        text-align: center;
+        background-color: #377b90;
+    }
+    .headerrightbottom nav {
+        position: relative;
+    }
+    .mainmenu li {
+        float: none;
+        padding: 10px 0px;
+        border: none;
+    }
+    .mainmenu li a {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 959px) {}
+
+@media only screen and (max-width: 800px) {
+    .contactnum i {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    ul.socialmeadia {
+        margin-bottom: 10px;
+    }
+    .formcol {
+        width: 100%;
+    }
+    .formcol1 {
+        width: 100%;
+    }
+    .contactcol {
+        width: 100%;
+    }
+    .footercol {
+        text-align: center;
+        width: 50%;
+    }
+    .contactsection h2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .headercallus {
+        margin-bottom: 10px;
+    }
+    .tab {
+        width: 100%;
+        padding: 0;
+    }
+    .tab a {
+        text-align: center;
+    }
+    .tabcontent {
+        width: 100%;
+    }
+    .tabcontent p {
+        padding: 10px 0px 0px 0px;
+    }
+    .form-fill {
+        width: 100%;
+    }
+    .footercol1 {
+        width: 100%;
+    }
+    .tab ul li {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    ul.mainmenu.active {
+        left: -125px;
+    }
+    .nav-toggle {
+        right: -30px;
+    }
+    .footercol {
+        width: 100%;
+    }
+    .servicesection {
+        padding: 35px 0px 40px 0px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .servicesection {
+        padding: 20px 0px 20px 0px;
+    }
+    .fillform {
+        padding: 20px 0px;
+    }
+    .contactsection {
+        padding: 20px 0px;
+    }
+    .footerinner {
+        padding: 20px 0px;
+    }
+}
